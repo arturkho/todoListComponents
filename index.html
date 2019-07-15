@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/main.css">
+    <script src="js/main.js"></script>
+    <script src="js/components/containers/NodeContainer.js"></script>
+    <script src="js/components/containers/ListsContainer.js"></script>
+    <script src="js/components/task/TaskComponent.js"></script>
+    <script src="js/components/task/Lists.js"></script>
+    <script src="js/components/task/ListComponent.js"></script>
+</head>
+<body>
+<header><h3>Todo list</h3></header>
+<div>
+    <form>
+        <div id="inputsWrap">
+            <input type="text" id="taskInput" placeholder="task name">
+            <input type="button" id="addTaskButton" value="Add task"/>
+            <input type="button" id="addList" value="Add list"/>
+            <input type="button" id="deleteList" value="Delete list"/>
+        </div>
+    </form>
+    <div id="taskTablesWrap" style="display: flex;"></div>
+</div>
+</body>
+</html>
